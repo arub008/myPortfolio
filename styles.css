@@ -1,0 +1,147 @@
+body{
+  font-family: 'Nunito', sans-serif, Verdana;
+  font-size: 20px;
+overflow-x: hidden;
+}
+
+.navbar-default{
+ border-bottom-color: #FCA311;
+}
+.keyboard {
+    position: relative;
+    background: url(http://jiznzarubezhom.ru/keyboard.jpg);
+    height: 620px;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+.purpleBtn {
+    background: rgba(157,121,188,0.7);
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 50%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.ptext {
+    margin-top: 20px;
+}
+
+#name {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px #563D7C;
+}
+
+.moneki {
+    background: url(http://jiznzarubezhom.ru/moneki86.jpg) no-repeat;
+    position: absolute;
+    width: 78px;
+    height: 99px;
+    left: 80%;
+    bottom: 80%;
+    border-radius: 20%;
+  box-shadow: 3px -2px 5px 2px grey;
+}
+
+.about {
+    padding: 30px;
+    color: #14213D;
+}
+
+.bgPortfolio {
+   padding: 30px;
+   background: #14213D;
+    color: #fff;
+}
+
+.btn {
+    background-color: #563D7C;
+    margin-right: 15px;
+}
+
+a .btn {
+  color: #fff;
+}
+.btn:hover{
+  color: #FCA311;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+    position: relative;
+    opacity: 0.85;
+}
+
+figure img{
+    display: block;
+    transform: scale(1);
+}
+
+figure img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.filled{
+    position: relative;
+    padding: 2px 10px;
+    bottom: 5%;
+  //  left: 5%;
+    background: #fff;
+  width: 350px;
+
+}
+figcaption {
+    position: absolute;
+    padding: 2px 10px;
+    bottom: 5%;
+  //  left: 5%;
+    background: #fff;
+  color: #000;
+//width: 30%;
+
+}
+
+.bgContacts {
+     background: url(http://jiznzarubezhom.ru/mixcont.jpg) no-repeat;
+position: relative;
+        height: 300px;
+    background-position: bottom center;
+   background-attachment: fixed;
+ }
+
+.h2contacts {
+    margin-top: 0;
+}
+
+footer {
+    background: #FCA311;
+  padding: 30px;
+}
+
+.contactsText {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: 20px;
+    background: #fff;
+}
+
+.mePhoto img{
+    border-radius: 50%;
+}
+#scroller{
+  background: url(http://jiznzarubezhom.ru/arrowup.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+ bottom: 30px;
+  right: 3%;
+  cursor: pointer;
+  display: none;
+}
