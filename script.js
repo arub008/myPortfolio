@@ -12,8 +12,8 @@ $('#scroller').fadeIn();
     $('#scroller').fadeOut();
   }
 });
-$('#scroller').click(function(){ $('body,html').animate({
+$('#scroller').click(function(){$('body,html').animate({
             scrollTop: 0
         }, 400);
         return false;
-                     });
+});
